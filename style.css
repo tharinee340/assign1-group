@@ -2,6 +2,32 @@ body {
     font-family: 'Barlow Semi Condensed';
     position: relative;
 }
+nav.navbar{
+    background-color:black ;
+    color: white;
+    
+  }
+  div.img-resize img {
+    float: left;
+    width: 64px;
+
+    height: auto;
+    margin: 0px 0px 0px 150px;
+   
+
+}
+  div.navbar-brand{
+    padding:20px 50px 10px 250px;
+  }
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  {
+    padding:10px 0px 10px 105px;
+  }
+  
+  li.nav-item{
+      padding: 0px 0px 0px 20px;
+  }
+  
 .carousel-text{
     margin-top: 10px;
 
