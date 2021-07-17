@@ -21,8 +21,8 @@ img.d-block {
     margin-right: 10px;
     margin-top: 80px;
 }
-.card img {
-    
+.carousel-caption p {
+    font-size: 36px;
 }
 .card-title {
     font-size: 16px;
@@ -58,6 +58,6 @@ h1 {
     padding-left: 10px;
 
 }
-p {
+.card-body p {
     display: inline;
 }
