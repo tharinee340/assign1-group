@@ -103,3 +103,11 @@ footer{
 .privacy{
     margin-right: 100px;
 }
+@media only screen and (max-width:600px) {
+   footer{
+       display: none;
+   } 
+   nav.navbar{
+       display: none;
+   }
+}
