@@ -61,3 +61,22 @@ h1 {
 .card-body p {
     display: inline;
 }
+footer{
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+   border: 1px solid lightgray;
+    color: #868686;
+}
+.copy{
+    margin-left: 100px;
+}
+.privacy{
+    margin-right: 100px;
+}
