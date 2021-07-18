@@ -2,35 +2,50 @@ body {
     font-family: 'Barlow Semi Condensed';
     position: relative;
 }
+
+.contai-menu {
+    width: 100%;
+    align-items: center;
+}
 .navbarblack{
     color: white;
     font-size: 20px;
+    width: 95%;
+    display: flex;
 }
 .home{
-    margin-left: 120px;
+    margin-left: 30px;
     color: white;
     text-decoration: none;
+}
+nav.top-nav {
+    display: inline-block;
 }
 .logo-icon{
     width: 40px;
     margin-left:50px;
 }
-.bag-icon{
-margin-left: 1000px;
-/* position: absolute; */
-}
-  div.navbar-brand{
+
+div.navbar-brand{
     padding:20px 50px 10px 250px;
-  }
-  nav.navbar.navbar-expand-lg.navbar-light.bg-light
-  {
-    padding:10px 0px 10px 105px;
-  }
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    padding:10px 0px 10px 30px;
+}
   
-  li.nav-item{
-      padding: 0px 0px 0px 20px;
-     
-  }
+li.nav-item{
+      padding: 0px 0px 0px 20px;   
+}
+.nav-down {
+    padding: 0;
+    margin-left: 0;
+}
+
+.navbar-menu {
+    padding-left: 4%;
+    padding-bottom: 10px;
+    padding-top: 10;
+}
 
 
 .carousel-text{
@@ -58,7 +73,7 @@ img.d-block {
     font-size: 16px;
 }
 .content {
-    margin: 6%;
+    margin: 47px 6%;
 }
 .card {
     border: none;
@@ -111,13 +126,19 @@ footer{
    footer{
        display: none;
    } 
-   nav.navbar{
-       display: none;
+    
+   .navbarblack {
+    display: none;
+
    }
-   .logo-icon,.home{
-       display: none;
-   }
-   .bag-icon{
+   #bag-icon{
+       display: flex;
+       justify-content: flex-end;
        color: black;
+      
+   }
+   .container-right img {
+       width: 100%;
+       
    }
 }
