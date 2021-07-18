@@ -2,19 +2,22 @@ body {
     font-family: 'Barlow Semi Condensed';
     position: relative;
 }
-nav.navbar{
-    background-color:black ;
+.navbarblack{
     color: white;
-    
-  }
-  div.img-resize img {
-    float: left;
-    width: 64px;
-
-    height: auto;
-    margin: 0px 0px 0px 150px;
-   
-
+    font-size: 20px;
+}
+.home{
+    margin-left: 120px;
+    color: white;
+    text-decoration: none;
+}
+.logo-icon{
+    width: 40px;
+    margin-left:50px;
+}
+.bag-icon{
+margin-left: 1000px;
+/* position: absolute; */
 }
   div.navbar-brand{
     padding:20px 50px 10px 250px;
@@ -26,11 +29,12 @@ nav.navbar{
   
   li.nav-item{
       padding: 0px 0px 0px 20px;
+     
   }
-  
+
+
 .carousel-text{
     margin-top: 10px;
-
 }
 .carousel-inner{
     margin-top: 47px;
@@ -109,5 +113,11 @@ footer{
    } 
    nav.navbar{
        display: none;
+   }
+   .logo-icon,.home{
+       display: none;
+   }
+   .bag-icon{
+       color: black;
    }
 }
